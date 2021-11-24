@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    height: 65px;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
+}
+.logo-pokemom{
+    border-right:2px solid lightgray  ;
+    padding: 0px 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+}
+.logo-cen-pokemon{
+    border-right:2px solid lightgray  ;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+.logo-tcgo{
+    border-right:2px solid lightgray  ;
+    padding: 0px 10px 0px 10px;
+    cursor: pointer;
+}
+.img-biglogo{
+    padding: 0px 2px;
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: flex-end;
+}
+.icon-color{
+    background-color: gray;
+    
+}
+.navbar{
+    margin-top: 8px;
+    height: 70px;
+  
+    
+}
+.color1{
+    border-bottom: 4px solid red;
+}
+
+.color2{
+    border-bottom: 4px solid orange;
+}
+.color3{
+    border-bottom: 4px solid yellow;
+}
+.color4{
+    border-bottom: 4px solid green;
+}
+.color5{
+    border-bottom: 4px solid lightseagreen;
+}
+.color6{
+    border-bottom: 4px solid blue;
+}
+.wallpaper{
+    background-image: url(img/container_bg.png);
+    height: 200vh;
+}
+.center-area{
+    height: 170vh;
+    background-color: #fff;
+    width: 70%;
+   
+}
+.center-con{
+    display: flex;
+    justify-content: center;
+    
+}
+.first-img-control{
+    display: flex;
+}
+.img-25launch{
+    margin-left: 15px;
+    width: auto;
+   
+}
+.img-movie{
+  margin-left: 20px;
+}
+.para-width{
+margin-right: 15px;  
+width: 97%;
+height: auto;
+position: relative;
+bottom: 5px;
+border-radius: 0px 0px 10px 0px;
+font-size: 15px;
+padding: 20px 2px;
+background-color: #E3350D;
+color: white;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+justify-content: center;
+align-items: center; 
+
+}
+.para-width1{
+    margin-right: 15px;  
+width: 86%;
+height: auto;
+position: relative;
+bottom: 5px;
+left: 20px;
+border-radius: 0px 0px 0px 10px;
+font-size: 15px;
+padding: 20px 2px;
+background-color: #E6BC2F;
+color: white;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+justify-content: center;
+align-items: center;
+}
+.second-img-control{
+    margin-top: 30px;
+    display: flex;
+   
+}
+.col{
+    width: 300px;
+    font-family: ubuntu;
+    font-size: 22px;
+    padding: 2px 10px;
+    cursor: pointer;
+    transition: transform linear 0.3s;
+    
+ 
+}
+.col:hover{
+    transform: translateX(9px);
+}
+
+.col2{
+    width: 300px;
+    font-family: ubuntu;
+    font-size: 22px;
+    padding: 2px 10px;
+    margin: 0px 16px;
+    cursor: pointer;
+    transition: transform linear 0.5s;
+    
+}
+.col2:hover{
+    transform: translateY(-20px)  ;
+  
+}
+.col3{
+    width: 300px;
+    font-family: ubuntu;
+    font-size: 22px;
+    padding: 2px 10px;
+   
+    cursor: pointer;
+    transition: transform linear 0.3s;
+}
+.col3:hover{
+    transform: translateX(-10px)  ;
+  
+}
+.bg-color1{
+    background-color: #1847D7;
+    position: relative;
+    bottom: 5px;
+    width: 300px;
+    text-align: start;
+    color: #fff;
+    padding: 10px 5px;
+    border-radius: 0px 0px 10px 10px;
+}
+.bg-color2{
+    background-color: #282828; ;
+    position: relative;
+    bottom: 5px;
+    width: 300px;
+    color: #fff;
+    text-align: start;
+    padding: 10px 5px;
+    border-radius: 0px 0px 10px 10px;
+}
+.bg-color3{
+    background-color: #369143; 
+    position: relative;
+    color: #fff;
+    bottom: 5px;
+    width: 300px;
+    text-align: start;
+    padding: 10px 5px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+
+.icons{
+    
+    width: 25%;
+}
+.img-colum{
+    border-radius: 10px 10px 0px 0px;
+}
+footer{
+    height: 30vh;
+    background-color: #000;
+}
+.controlling{
+    height:  30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}

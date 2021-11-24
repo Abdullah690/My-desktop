@@ -1,0 +1,211 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    position: sticky;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:#F7F8F8 ;
+}
+.logo{
+    width: 70px;
+}
+.input-text{
+    width: 290px;
+    height: 60px;
+    padding: 5px 40px;
+    font-family:Roboto, Helvetica, sans-serif;
+    font-size:  15.96px;
+    font-weight:  400;
+    color:black ;
+    border-radius: 5px;
+    border: 1px solid black;
+    
+}
+.input-text:hover{
+    border: 1px solid #23E5DB;
+}
+
+
+
+.fa-search{
+    font-size: 20px;
+    position: relative;
+    left: 35px;
+    color: blue;
+  
+   
+}
+#font-icon-arrow{
+    font-size: 20px;
+    position: relative;
+    right: 35px;
+}
+.input-text-second{
+    width: 600px;
+    height: 60px;
+    padding: 5px 20px;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size:  15.96px;
+    font-weight:  400;
+    color: #777777 ;
+    Line-height: normal;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.input-text-second:hover{
+    border: 1px solid #23E5DB;
+}
+#second-search-icon{
+ color:blue;
+ position: relative;
+ right: 86px;
+ padding: 3px 8px;
+ height: 100%;
+ 
+}
+.headding-nav{
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+    border: 2px solid  #fff ;
+    margin-right: 20px;
+    text-align: center;
+    padding: 12px 22px;
+    background-color: #059862;
+    cursor: pointer;
+    color: #fff;
+    
+    border-radius: 7px;
+   
+} 
+.bor-icon{
+    width: 90px;
+    font-size: 18px;
+    padding: 15px 5px;
+    border-radius: 47%;
+    border-top: 7px solid #23E5DB;
+    border-bottom: 7px solid red;
+    border-left: 7px solid #3A77FF;
+    border-right: 7px solid #FFCE32 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+.fa-plus{
+    padding-right: 5px;
+}
+#font-icon-arrow2{
+    font-size: 23px;
+
+}
+.headding-four{
+    font-size: 20px;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+.sequens{
+    display: flex;
+    width: 75%;
+    margin: 30px 0px;
+    justify-content: space-around;
+}
+p{
+    font-size: 18px;
+    font-family:Roboto, Helvetica, sans-serif; 
+    font-weight: 150;
+}
+.baner{
+    background: url(images/wallpaper.6416002a042322099dbfec286d7574f4.jpg);
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
+.img-moltyfoam{
+    display: flex;
+    margin: 30px 0px;
+    justify-content: center;
+    
+}
+.card-control{
+    border: 1px solid gray;
+    width: 20%;
+    box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.2);
+    border-radius:2px;
+}
+.heading-one{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.city{
+    display: flex;
+    justify-content: end;
+    padding: 0px 5px 0px 0px;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px;
+  
+}
+.last{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.btn-center{
+    height: 70px;
+    margin: 30px 0px
+}
+.btn-lg{
+    padding: 15px 10px;
+    font-size: 19px;
+    background-color: transparent;
+    border-radius: 5px;
+    color: rgb(0, 47, 52);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    
+    cursor: pointer;
+    transition: all linear 0.s;
+
+}
+.btn-lg:hover{
+    
+    border: 5px solid rgb(0, 47, 52);
+    font-size: 19px;
+    
+}
+.btn-center{
+    display: flex;
+    justify-content: center;
+    
+}
+.baner{
+    width:  100%;
+    height: 150px;
+}
+.secon-last-footer{
+    height: 30%;
+    background-color: #F7F8F8;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 30px;
+}
+.paras{
+    font-size: 15px;
+    font-family: ubuntu;
+    color: grey;
+    padding: 3px 0px;
+}
+h3{
+    color: #000;
+    font-family:sans-serif;
+    font-size: 19px;
+}

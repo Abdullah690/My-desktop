@@ -1,0 +1,22 @@
+.navbar{
+    height: 100px;
+    background-color: lightgray !important;
+
+}
+.navbar-nav{
+    font-size: 12px;
+    font-family: inter, sans-serif;
+    color: rgb(209, 39, 39) !important;
+  
+
+    
+}
+.register{
+    font-size: 16px;
+    background-color: hsl(201,64%,10%);
+    width: 110px;
+    height: auto;
+    color: white;
+    font-family: inter, sans-serif;
+}
+    

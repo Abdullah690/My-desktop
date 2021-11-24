@@ -1,0 +1,369 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   
+}
+nav{
+    background-color:#000 !important;
+    line-height: 25px;
+    height: 45px;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    
+
+}
+.applelogo{
+    color:  rgb(215, 215, 221);
+    width: 20%;  
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;  
+    cursor: pointer;
+}
+.applelogo:hover{
+    color: #fff;
+}
+.fa-apple{
+ font-size: 25px; 
+ 
+   
+}
+.anchor{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 14px;
+   padding: 20px 5px;
+   margin-right: 200px;
+
+}
+.anchor , a:hover{
+    color: #fff;
+}
+
+.anchor , a{
+    list-style: none;
+    font-family: ubuntu;
+    text-decoration: none;
+    color:rgb(215, 215, 221) ;
+}
+.lineheight{
+    height: 50px;
+    background-color: rgb(224, 224, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    padding-top: 7px;
+   
+
+}
+.link:hover{
+    text-decoration: underline;
+    color:rgb(0,130,255) ;
+}
+.link{
+    color:rgb(0,130,255);
+    padding-right: 5px;
+    padding-left: 5px;
+} 
+.homeimg{
+    background: url(img/homeimg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 10px;
+} 
+.main-div{
+    display: flex;
+    height: 95vh;
+    justify-content:flex-end;
+    flex-direction: column;
+    align-items: center;
+   
+}  
+.head1{
+    font-size: 55px;
+    color: #fff;
+    letter-spacing: -2px;
+    line-height: 1;
+    
+    
+}
+.head3{
+    color: #fff;
+    font-size: 30px;
+    line-height: 1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 8px ;
+   
+}
+.link-anchor3{
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 8px;
+}
+.link-anchore4{
+    color: hsl(209,68%,49%);
+    
+}
+.link-anchore4:hover{
+    text-decoration: underline;
+    color: hsl(209,68%,49%);
+}
+.col{
+    color:hsl(209,68%,49%) ;
+
+}
+.second-sec{
+    background: url(img/iphones.jpg);
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.main-div2{
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+} 
+.ios-head{
+    font-size: 60px ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}  
+.light-para{
+    font-size: 30px;
+    padding: 8px 0;
+}
+.grey-para1{
+    color: hsl(240,1%,57%); 
+    font-size: 20px; 
+    font-family: ubuntu;
+    padding-bottom: 3px;  
+}
+.grey-para2{
+    color: hsl(240,1%,57%);
+    font-family: ubuntu;  
+    font-size: 20px; 
+    padding-bottom: 3px;
+}
+.anchor-lm{
+    color: hsl(209,68%,49%);
+    font-size: 20px;
+    padding: 20px 10px;
+}
+.anchor-lm:hover{
+    color:hsl(209,68%,49%) ;
+    text-decoration: underline;
+}
+.third-sec{
+    height: 100vh;
+    background: url(img/blackiphone.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    
+}
+.main-div3{
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    color: #fff;
+}
+
+.firsthalf{
+    background: url(img/first.jpg);
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    margin: 10px 5px 10px 10px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    
+}
+.secondhalf{
+    background: url(img/watch.jpg);
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    margin: 10px 10px 10px 5px;
+}
+.main-first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+    flex-direction: column;
+}
+.containar{
+    display: flex;
+   
+}
+
+.ipad-head{
+    font-size: 40px ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+}
+.light-para2{
+    font-size: 20px;
+    padding: 7px 0;
+    color: #fff;
+}
+.main-second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+    flex-direction: column;
+}
+.thirdhalf{
+    background: url(img/hello.jpg);
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    margin: 0px 5px 10px 10px;
+}
+.ipad-head3{
+    font-size: 36px;
+    
+    font-weight: bold;
+}
+.main-sec2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+}
+.fourthhalf{
+    background: url(img/run.jpg);
+    height: 90vh;
+    background-position:center ;
+    background-repeat: no-repeat;
+    width: 50%;
+    margin: 0px 10px 10px 5px;
+    background-color: whitesmoke;
+}
+.containar2{
+    display: flex;
+}
+.ipad-head4{
+    font-size: 20px;
+    color:hsl(240,1%,67%) ;
+}
+.main-sec3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+    padding: 15px;
+}
+.fivthhalf{
+    background: url(img/card.jpg);
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    margin: 0px 5px 10px 10px;
+}
+.sixthhalf{
+    background: url(img/uncle.jpg);
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    margin: 0px 10px 10px 5px;
+}
+.containar3{
+    display: flex;
+}
+.main-sec5{
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    height: 87vh;
+}
+.ipad-head7{
+    font-size: 20px;
+    padding: 2px 0;
+    font-family: ubuntu;
+    color: #000;
+    
+}
+.main-sec4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+    
+}
+.fivth-sec{
+    height: 80vh;
+    background-color: #000;
+    padding: 20px 0px;
+   
+}
+
+
+
+.MAIN-CANTAINAR{
+    display: flex;
+    color:rgb(161, 161, 166);
+    font-size: 12px;
+    font-family: ubuntu !important;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+    line-height: 2;
+  
+   
+}
+.h4{
+    color: #fff;
+}
+.copyright{
+    color:hsl(209,69%,47%) ;
+    font-size: 13px;
+    font-family: ubuntu;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
